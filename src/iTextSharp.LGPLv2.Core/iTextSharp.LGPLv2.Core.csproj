@@ -49,15 +49,15 @@
         </WarningsNotAsErrors>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="4.14.0">
+        <PackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="5.6.0">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Meziantou.Analyzer" Version="3.0.102">
+        <PackageReference Include="Meziantou.Analyzer" Version="3.0.257">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="SonarAnalyzer.CSharp" Version="10.27.0.140913">
+        <PackageReference Include="SonarAnalyzer.CSharp" Version="10.35.0.4138">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
@@ -77,12 +77,12 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="BouncyCastle.Cryptography" Version="2.6.2"/>
-        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.300" PrivateAssets="All"/>
+        <PackageReference Include="BouncyCastle.Cryptography" Version="2.7.0"/>
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.403" PrivateAssets="All"/>
     </ItemGroup>
 
     <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
-        <PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.9" />
+        <PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.14"/>
     </ItemGroup>
 
 </Project>
